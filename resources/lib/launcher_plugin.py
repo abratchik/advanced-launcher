@@ -832,7 +832,7 @@ class Main:
                         self.launchers[launcher]["roms"][rom]["name"] = title_format(self,title)
                     else:
                         self.launchers[launcher]["roms"][rom]["name"] = title_format(self,results[selectgame]["title"])
-                    gamedata = self._get_game_data(results[selectgame]["id"])
+                    gamedata = self._get_game_data(results[selectgame])
                     self.launchers[launcher]["roms"][rom]["genre"] = gamedata["genre"]
                     self.launchers[launcher]["roms"][rom]["release"] = gamedata["release"]
                     self.launchers[launcher]["roms"][rom]["studio"] = gamedata["studio"]
@@ -1426,7 +1426,7 @@ class Main:
                     self.launchers[launcherID]["name"] = title_format(self,self.launchers[launcherID]["name"])
                 else:
                     self.launchers[launcherID]["name"] = title_format(self,results[selectgame]["title"])
-                gamedata = self._get_game_data(results[selectgame]["id"])
+                gamedata = self._get_game_data(results[selectgame])
                 self.launchers[launcherID]["genre"] = gamedata["genre"]
                 self.launchers[launcherID]["release"] = gamedata["release"]
                 self.launchers[launcherID]["studio"] = gamedata["studio"]
@@ -2193,7 +2193,7 @@ class Main:
                                         romdata["name"] = title_format(self,foundname)
 
                                     # Game other game data
-                                    gamedata = self._get_game_data(results[selectgame]["id"])
+                                    gamedata = self._get_game_data(results[selectgame])
                                     romdata["genre"] = gamedata["genre"]
                                     romdata["release"] = gamedata["release"]
                                     romdata["studio"] = gamedata["studio"]
