@@ -1652,7 +1652,10 @@ class Main:
 
     def _get_scrapers( self ):
         # get the users gamedata scrapers preference
-        exec "import resources.scrapers.datas.%s.datas_scraper as _data_scraper" % ( self.settings[ "datas_scraper" ] )
+        try: 
+            exec "import resources.scrapers.datas.%s.datas_scraper as _data_scraper" % ( self.settings[ "datas_scraper" ] )
+        except:
+            exec "import resources.scrapers.datas.TheGamesDB.datas_scraper as _data_scraper"
         self._get_games_list = _data_scraper._get_games_list
         self._get_game_data = _data_scraper._get_game_data
         self._get_first_game = _data_scraper._get_first_game
@@ -1731,6 +1734,8 @@ class Main:
                             arguments = rom["altarg"]
                         else:
                             arguments = launcher["args"]
+                        if " " in rom["filename"]:
+                            rom["filename"] = "\"" + rom["filename"] + "\""
                         arguments = arguments.replace("%rom%" , rom["filename"]).replace("%ROM%" , rom["filename"])
                         arguments = arguments.replace("%romfile%" , romfile).replace("%ROMFILE%" , romfile)
                         arguments = arguments.replace("%romname%" , romname).replace("%ROMNAME%" , romname)
