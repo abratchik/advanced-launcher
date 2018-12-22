@@ -40,14 +40,15 @@ def _get_first_game(search,gamesys):
         return results
 
 # Return Game data
-def _get_game_data(game_id):
+def _get_game_data(game_object):
     gamedata = {}
     gamedata["genre"] = ""
     gamedata["release"] = ""
     gamedata["studio"] = ""
     gamedata["plot"] = ""
-    f = urllib.urlopen('http://www.arcadehits.net/index.php?p=roms&jeu='+game_id)
+    f = urllib.urlopen('http://www.arcadehits.net/index.php?p=roms&jeu='+game_object['id'])
     page = f.read().replace('\r\n', '').replace('\n', '').replace('\r', '').replace('          ', '')
+    
     game_genre = re.findall('<span class=mini>Genre: </span></td><td align=left>&nbsp;&nbsp;<strong>(.*?)>(.*?)</a>', page)
     if game_genre:
         gamedata["genre"] = game_genre[0][1]
@@ -57,7 +58,7 @@ def _get_game_data(game_id):
     game_studio = re.findall('<span class=mini>Fabricant: </span></td><td align=left>&nbsp;&nbsp;<strong>(.*?)>(.*?)</a>', page)
     if game_studio:
         gamedata["studio"] = game_studio[0][1]
-    f = urllib.urlopen('http://www.arcadehits.net/page/viewdatfiles.php?show=history&jeu='+game_id)
+    f = urllib.urlopen('http://www.arcadehits.net/page/viewdatfiles.php?show=history&jeu='+game_object['id'])
     page = f.read().replace('\r\n', '').replace('\n', '').replace('\r', '')
     game_plot = re.findall('<br><br>(.*?)<br><br>',page)
     if game_plot:

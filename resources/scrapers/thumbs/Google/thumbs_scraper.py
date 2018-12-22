@@ -2,33 +2,27 @@
 
 import xbmc
 import os
-import time
-import urllib,re
-import simplejson
+import re
+import urllib
+import urllib2
 
-CACHE_PATH = xbmc.translatePath('special://profile/addon_data/plugin.program.advanced.launcher/cache/')
-if not os.path.exists(CACHE_PATH): os.makedirs(CACHE_PATH)
-for each in os.listdir(CACHE_PATH):
-    os.remove(os.path.join(CACHE_PATH.decode('utf-8','ignore'),each.decode('utf-8','ignore')))
 
 # Thumbnails list scrapper
 def _get_thumbnails_list(system,search,region,imgsize):
-    qdict = {'q':search,'imgsz':imgsize}
+    qdict = {'q':search + " Boxart " + system,'tbm':'isch'}
     query = urllib.urlencode(qdict)
-    base_url = ('http://ajax.googleapis.com/ajax/services/search/images?v=1.0&start=%s&rsz=8&%s')
+    url = 'https://www.google.com/search?' + query + '&tbs=' + imgsize + '&dcr=0'
+    hdr = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11','Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8','Accept-Charset': 'ISO-8859-1,utf-8;q=0.7,*;q=0.3','Accept-Encoding': 'none','Accept-Language': 'en-US,en;q=0.8','Connection': 'keep-alive'}
     covers = []
     results = []
     try:
-        for start in (0,8,16,24):
-            url = base_url % (start,query)
-            search_results = urllib.urlopen(url)
-            json = simplejson.loads(search_results.read())
-            search_results.close()
-            results += json['responseData']['results']
+        req = urllib2.Request(url, headers=hdr)
+        f = urllib2.urlopen(req)
+        search_results = {}
+        search_results = f.read()
+        results =  re.findall('<div jscontroller=".*?" class="rg_.*?">.*?"ou":"(.*?)",.*?"tu":"(.*?)".*?}</div>', search_results)
         for index, images in enumerate(results):
-            thumbnail = os.path.join(CACHE_PATH,str(index) + str(time.time()) + '.jpg')
-            h = urllib.urlretrieve(images['tbUrl'],thumbnail)
-            covers.append((images['url'],thumbnail,"Image "+str(index+1)))
+            covers.append((images[0],images[0],"Image "+str(index+1)))
         return covers
     except:
         return covers

@@ -138,6 +138,10 @@
     <string id="30193">Option de démarrage des lanceurs</string>
     <string id="30194">Ajouter un nouveau lanceur</string>
     <string id="30195">Ouvrir Advanced Launcher directement dans la catégorie "Default"</string>
+    <string id="30196">Can't Access GameFAQs</string>
+    <string id="30197">Your IP address may be blocked due to excessive searches.</string>
+    <string id="30198">If you would like to continue, you may need to go to GameFAQs and complete a capcha on the search page.</string>
+    <string id="30199">If you have already completed this step, you may need to wait a few seconds</string>
 
     <string id="30201">défaut</string>
     <string id="30202">Utilisateurs expérimentés</string>
@@ -145,6 +149,8 @@
     <string id="30204">Activé</string>
     <string id="30205">Désactivé</string>
     <string id="30206">Support des raccourcis (.lnk)</string>
+    <string id="30207">Continue</string>
+    <string id="30208">Cancel</string>
 
     <string id="30300">Choisir une action pour %s</string>
     <string id="30301">Modifier les informations</string>

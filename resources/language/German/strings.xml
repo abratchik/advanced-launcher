@@ -146,6 +146,10 @@
     <string id="30192">Zusammenlegung</string>
     <string id="30193">Startoptionen für Programmstarter</string>
     <string id="30194">Programmstarter hinzufügen</string>
+    <string id="30196">Can't Access GameFAQs</string>
+    <string id="30197">Your IP address may be blocked due to excessive searches.</string>
+    <string id="30198">If you would like to continue, you may need to go to GameFAQs and complete a capcha on the search page.</string>
+    <string id="30199">If you have already completed this step, you may need to wait a few seconds</string>
 
     <string id="30201">standard</string>
     <string id="30202">erfahrene Anwender</string>
@@ -153,6 +157,8 @@
     <string id="30204">Ein</string>
     <string id="30205">Aus</string>
     <string id="30206">Verknüpfungen (.lnk) unterstützen</string>
+    <string id="30207">Continue</string>
+    <string id="30208">Cancel</string>
 
     <string id="30300">Aktion für %s auswählen</string>
     <string id="30301">Informationen bearbeiten</string>
