@@ -64,7 +64,7 @@
     <string id="30106">Lisää kohteita</string>
     <string id="30107">Muokkaa kohdetta</string>
     <string id="30109">Muokkaa käynnistintä</string>
-    
+
     <string id="30120">Tuonnin tila</string>
     <string id="30121">Lähde</string>
     <string id="30122">Pienoiskuvat</string>
@@ -167,7 +167,7 @@
     <string id="30334">Kohteiden lista</string>
     <string id="30335">Tuo kohteiden tiedot NFO-tiedostoista</string>
     <string id="30336">Vie kohteiden tiedot NFO-tiedostoihin</string>
-    
+
     <string id="30400">Etsi kohteita...</string>
     <string id="30401">Nimikkeellä</string>
     <string id="30402">Julkaisuvuodella</string>
@@ -185,4 +185,6 @@
     <string id="30503">ei löytynyt</string>
     <string id="30512">Etsi</string>
 
+    <string id="30800">TheGamesDB API Key</string>
+    <string id="30801">API Keys</string>
 </strings>

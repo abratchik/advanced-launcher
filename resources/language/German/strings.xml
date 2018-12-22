@@ -74,7 +74,7 @@
     <string id="30112">Neuer Kategoriename</string>
     <string id="30113">Kategorie %s erstellt</string>
     <string id="30114">Kategorie wählen</string>
-    
+
     <string id="30120">Importmodus</string>
     <string id="30121">Quelle</string>
     <string id="30122">Vorschaubilder</string>
@@ -209,7 +209,7 @@
     <string id="30347">Alternative Anwendung: %s</string>
     <string id="30348">Alternative Parameter: %s</string>
     <string id="30349">Keine Einträge in der Liste: Erst einen Eintrag hinzufügen.</string>
-    
+
     <string id="30400">Einträge suchen...</string>
     <string id="30401">Nach Titel</string>
     <string id="30402">Nach Erscheinungsdatum</string>
@@ -289,4 +289,7 @@
     <string id="30743">Parameter: %s</string>
     <string id="30744">plugin.program.advanced.launcher</string>
     <string id="30745">Fehler: %s::%s (%d) - %s</string>
+
+    <string id="30800">TheGamesDB API Key</string>
+    <string id="30801">API Keys</string>
 </strings>

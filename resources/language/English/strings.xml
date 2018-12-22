@@ -78,7 +78,7 @@
     <string id="30113">Category %s created</string>
     <string id="30114">Select the category</string>
     <string id="30115">Select the favourite</string>
-    
+
     <string id="30120">Import Mode</string>
     <string id="30121">Source</string>
     <string id="30122">Thumbs</string>
@@ -157,7 +157,7 @@
     <string id="30198">If you would like to continue, you may need to go to GameFAQs and complete a capcha on the search page.</string>
     <string id="30199">If you have already completed this step, you may need to wait a few seconds</string>
 
-	
+
     <string id="30201">default</string>
     <string id="30202">experienced users</string>
     <string id="30203">Toggle Kodi Fullscreen</string>
@@ -216,7 +216,7 @@
     <string id="30347">Alternative application : %s</string>
     <string id="30348">Alternative arguments : %s</string>
     <string id="30349">Items list is empty : Add items first.</string>
-    
+
     <string id="30400">Search items...</string>
     <string id="30401">By Title</string>
     <string id="30402">By Release Date</string>
@@ -298,4 +298,7 @@
     <string id="30745">Error: %s::%s (%d) - %s</string>
     <string id="30746">Save launchers.xml file</string>
     <string id="30747">Load launchers.xml file</string>
+
+    <string id="30800">TheGamesDB API Key</string>
+    <string id="30801">API Keys</string>
 </strings>

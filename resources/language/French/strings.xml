@@ -65,7 +65,7 @@
     <string id="30106">Ajouter des objets</string>
     <string id="30107">Éditer l'objet</string>
     <string id="30109">Éditer le lanceur</string>
-    
+
     <string id="30120">Mode d'importation</string>
     <string id="30121">Source web</string>
     <string id="30122">Vignettes</string>
@@ -192,7 +192,7 @@
     <string id="30338">Importer informations, vignette et fanart</string>
     <string id="30339">Statut : Terminé</string>
     <string id="30340">Statut : Non terminé</string>
-    
+
     <string id="30400">Rechercher des objets...</string>
     <string id="30401">Par titre</string>
     <string id="30402">Par date de sortie</string>
@@ -210,4 +210,6 @@
     <string id="30503">Non-trouvée</string>
     <string id="30512">Rechercher</string>
 
+    <string id="30800">TheGamesDB API Key</string>
+    <string id="30801">API Keys</string>
 </strings>

@@ -78,7 +78,7 @@
     <string id="30113">Категория %s создана</string>
     <string id="30114">Выбрать категорию</string>
     <string id="30115">Выбрать избранное</string>
-    
+
     <string id="30120">Режим импорта</string>
     <string id="30121">Источник</string>
     <string id="30122">Изображение</string>
@@ -209,7 +209,7 @@
     <string id="30347">Альтернативное приложение : %s</string>
     <string id="30348">Альтернативные параметры : %s</string>
     <string id="30349">Список элементов пуст: Добавление первого элемента.</string>
-    
+
     <string id="30400">Поиск...</string>
     <string id="30401">По названию</string>
     <string id="30402">По дате релиза</string>
@@ -291,4 +291,7 @@
     <string id="30745">Ошибка: %s::%s (%d) - %s</string>
     <string id="30746">Сохранить launchers.xml file</string>
     <string id="30747">Загрузить launchers.xml file</string>
+
+    <string id="30800">TheGamesDB API Key</string>
+    <string id="30801">API Keys</string>
 </strings>

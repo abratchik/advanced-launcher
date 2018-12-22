@@ -1,0 +1,1213 @@
+{
+  "3DO": {
+    "1": 18,
+    "GameFAQs": "3DO",
+    "MobyGames": 35,
+    "TheGamesDB.Old": "3DO",
+    "TheGamesDB": 25
+  },
+  "Acorn Archimedes": {
+    "1": null,
+    "GameFAQs": "Acorn Archimedes",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4944
+  },
+  "Action Max": {
+    "1": 70000,
+    "GameFAQs": null,
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4976
+  },
+  "Adventure Vision": {
+    "1": 26551,
+    "GameFAQs": "Adventurevision",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Amstrad CPC": {
+    "1": 18832,
+    "GameFAQs": "Amstrad CPC",
+    "MobyGames": 60,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4914
+  },
+  "Android": {
+    "1": null,
+    "GameFAQs": "Android",
+    "MobyGames": 91,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4916
+  },
+  "APF-*1000/IM": {
+    "1": null,
+    "GameFAQs": "APF-*1000/IM",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Apple II": {
+    "1": 6,
+    "GameFAQs": "Apple II",
+    "MobyGames": 31,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4942
+  },
+  "Apple IIgs": {
+    "1": null,
+    "GameFAQs": "Apple II",
+    "MobyGames": 51,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Arcade": {
+    "1": 1,
+    "GameFAQs": "Arcade Games",
+    "MobyGames": null,
+    "TheGamesDB.Old": "Arcade",
+    "TheGamesDB": 23
+  },
+  "Arcadia": {
+    "1": null,
+    "GameFAQs": "Arcadia 2001",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Arcadia 2001": {
+    "1": 17661,
+    "GameFAQs": "Arcadia 2001",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Astrocade": {
+    "1": null,
+    "GameFAQs": "Astrocade",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Atari 2600": {
+    "1": null,
+    "GameFAQs": "Atari 2600",
+    "MobyGames": 28,
+    "TheGamesDB.Old": "Atari 2600",
+    "TheGamesDB": 22
+  },
+  "Atari 400/800/XL/XE": {
+    "1": 28,
+    "GameFAQs": "Atari 8-Bit",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4943
+  },
+  "Atari 5200": {
+    "1": 12,
+    "GameFAQs": "Atari 5200",
+    "MobyGames": 33,
+    "TheGamesDB.Old": "Atari 5200",
+    "TheGamesDB": 26
+  },
+  "Atari 7800": {
+    "1": 42,
+    "GameFAQs": "Atari 7800",
+    "MobyGames": 34,
+    "TheGamesDB.Old": "Atari 7800",
+    "TheGamesDB": 27
+  },
+  "Atari 8-bit": {
+    "1": null,
+    "GameFAQs": "Atari 8-Bit",
+    "MobyGames": 39,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Atari Jaguar": {
+    "1": 14,
+    "GameFAQs": "Jaguar",
+    "MobyGames": 17,
+    "TheGamesDB.Old": "Atari Jaguar",
+    "TheGamesDB": 28
+  },
+  "Atari Jaguar CD": {
+    "1": 25725,
+    "GameFAQs": "Jaguar CD",
+    "MobyGames": null,
+    "TheGamesDB.Old": "Atari Jaguar CD",
+    "TheGamesDB": 29
+  },
+  "Atari Lynx": {
+    "1": 13,
+    "GameFAQs": "Lynx",
+    "MobyGames": 18,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4924
+  },
+  "Atari ST": {
+    "1": 17658,
+    "GameFAQs": "Atari ST",
+    "MobyGames": 24,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4937
+  },
+  "Atari Video Computer System": {
+    "1": 11,
+    "GameFAQs": "Atari 2600",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Atari XE": {
+    "1": null,
+    "GameFAQs": "Atari 8-Bit",
+    "MobyGames": null,
+    "TheGamesDB.Old": "Atari XE",
+    "TheGamesDB": 30
+  },
+  "Bally Professionnal Arcade": {
+    "1": 17659,
+    "GameFAQs": "Astrocade",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Bandai Pippin": {
+    "1": 52333,
+    "GameFAQs": "Bandai Pippin",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "BBC Micro": {
+    "1": null,
+    "GameFAQs": "BBC Micro",
+    "MobyGames": 92,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "BBS Door": {
+    "1": null,
+    "GameFAQs": "BBS Door",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "BD Video": {
+    "1": 52178,
+    "GameFAQs": null,
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "BlackBerry": {
+    "1": null,
+    "GameFAQs": "BlackBerry",
+    "MobyGames": 90,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "BREW": {
+    "1": null,
+    "GameFAQs": null,
+    "MobyGames": 63,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Casio Loopy": {
+    "1": null,
+    "GameFAQs": "Casio Loopy",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Cassette Vision": {
+    "1": null,
+    "GameFAQs": "Cassette Vision",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Channel F": {
+    "1": null,
+    "GameFAQs": "Channel F",
+    "MobyGames": 76,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "ColecoVision": {
+    "1": 15,
+    "GameFAQs": "Colecovision",
+    "MobyGames": 29,
+    "TheGamesDB.Old": "Colecovision",
+    "TheGamesDB": 31
+  },
+  "Commodore 128": {
+    "1": 8,
+    "GameFAQs": null,
+    "MobyGames": 61,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4946
+  },
+  "Commodore 64": {
+    "1": 8,
+    "GameFAQs": "Commodore 64",
+    "MobyGames": 27,
+    "TheGamesDB.Old": "Commodore 64",
+    "TheGamesDB": 40
+  },
+  "Commodore Amiga": {
+    "1": 10,
+    "GameFAQs": "Amiga",
+    "MobyGames": 19,
+    "TheGamesDB.Old": "Amiga",
+    "TheGamesDB": 4911
+  },
+  "Commodore Amiga CD32": {
+    "1": 17660,
+    "GameFAQs": "Amiga CD32",
+    "MobyGames": 56,
+    "TheGamesDB.Old": "Amiga",
+    "TheGamesDB": 4947
+  },
+  "Commodore CDTV": {
+    "1": 33596,
+    "GameFAQs": "Amiga",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Commodore PET": {
+    "1": 38082,
+    "GameFAQs": "Commodore PET",
+    "MobyGames": 77,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Commodore VIC-20": {
+    "1": 7,
+    "GameFAQs": "VIC-20",
+    "MobyGames": 43,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4945
+  },
+  "CPS Changer": {
+    "1": null,
+    "GameFAQs": "CPS Changer",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "CreatiVision": {
+    "1": null,
+    "GameFAQs": "CreatiVision",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Cybiko": {
+    "1": 26887,
+    "GameFAQs": null,
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Doja": {
+    "1": null,
+    "GameFAQs": null,
+    "MobyGames": 72,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "DOS": {
+    "1": null,
+    "GameFAQs": "PC",
+    "MobyGames": 2,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Dragon 32/64": {
+    "1": null,
+    "GameFAQs": null,
+    "MobyGames": 79,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4952
+  },
+  "Dreamcast": {
+    "1": 20486,
+    "GameFAQs": "Dreamcast",
+    "MobyGames": 8,
+    "TheGamesDB.Old": "Sega Dreamcast",
+    "TheGamesDB": 16
+  },
+  "DVD Video": {
+    "1": 17676,
+    "GameFAQs": "DVD Player",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "EACA Colour Genie 2000": {
+    "1": null,
+    "GameFAQs": "EACA Colour Genie 2000",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Electron": {
+    "1": null,
+    "GameFAQs": null,
+    "MobyGames": 93,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "e-Reader": {
+    "1": 40612,
+    "GameFAQs": "e-Reader",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "ExEn": {
+    "1": null,
+    "GameFAQs": null,
+    "MobyGames": 70,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Fairchild Video Entertainment System": {
+    "1": 45,
+    "GameFAQs": "Channel F",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4928
+  },
+  "Famicom Disk System": {
+    "1": 29108,
+    "GameFAQs": "Famicom Disk System",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4936
+  },
+  "FM Towns": {
+    "1": null,
+    "GameFAQs": "FM Towns",
+    "MobyGames": 102,
+    "TheGamesDB.Old": "FM Towns Marty",
+    "TheGamesDB": 4932
+  },
+  "Fujitsu FM-7": {
+    "1": null,
+    "GameFAQs": "FM-7",
+    "MobyGames": 126,
+    "TheGamesDB.Old": "Fujitsu FM-7",
+    "TheGamesDB": 4978
+  },
+  "Game Boy": {
+    "1": 20,
+    "GameFAQs": "Game Boy",
+    "MobyGames": 10,
+    "TheGamesDB.Old": "Nintendo Game Boy",
+    "TheGamesDB": 4
+  },
+  "Game Boy Advance": {
+    "1": 20487,
+    "GameFAQs": "Game Boy Advance",
+    "MobyGames": 12,
+    "TheGamesDB.Old": "Nintendo Game Boy Advance",
+    "TheGamesDB": 5
+  },
+  "Game Boy Color": {
+    "1": 17662,
+    "GameFAQs": "Game Boy Color",
+    "MobyGames": 11,
+    "TheGamesDB.Old": "Nintendo Game Boy Color",
+    "TheGamesDB": 41
+  },
+  "Game.com": {
+    "1": 32,
+    "GameFAQs": "Game.com",
+    "MobyGames": 50,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4940
+  },
+  "Game Park 32": {
+    "1": 41216,
+    "GameFAQs": "GP32",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Gizmondo": {
+    "1": 46648,
+    "GameFAQs": "Gizmondo",
+    "MobyGames": 55,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "HD-DVD Video": {
+    "1": 52704,
+    "GameFAQs": null,
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Hybrid Windows/Mac": {
+    "1": 46,
+    "GameFAQs": "PC",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Hyperscan": {
+    "1": 51200,
+    "GameFAQs": null,
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "IBM PC Compatible": {
+    "1": 2,
+    "GameFAQs": "PC",
+    "MobyGames": 3,
+    "TheGamesDB.Old": "PC",
+    "TheGamesDB": 1
+  },
+  "Intellivision": {
+    "1": 16,
+    "GameFAQs": "Intellivision",
+    "MobyGames": 30,
+    "TheGamesDB.Old": "Intellivision",
+    "TheGamesDB": 32
+  },
+  "Interton VC4000": {
+    "1": null,
+    "GameFAQs": "Interton VC4000",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "iPad": {
+    "1": 72175,
+    "GameFAQs": "iOS (iPhone/iPad)",
+    "MobyGames": 96,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4915
+  },
+  "iPhone": {
+    "1": 67450,
+    "GameFAQs": "iOS (iPhone/iPad)",
+    "MobyGames": 86,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4915
+  },
+  "iPod Classic": {
+    "1": null,
+    "GameFAQs": "iOS (iPhone/iPad)",
+    "MobyGames": 80,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4915
+  },
+  "J2ME": {
+    "1": null,
+    "GameFAQs": null,
+    "MobyGames": 64,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "JVC X'Eye": {
+    "1": 18826,
+    "GameFAQs": null,
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Linux": {
+    "1": null,
+    "GameFAQs": "Linux",
+    "MobyGames": 1,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Macintosh": {
+    "1": 5,
+    "GameFAQs": "Macintosh",
+    "MobyGames": 74,
+    "TheGamesDB.Old": "Mac OS",
+    "TheGamesDB": 37
+  },
+  "Mattel Aquarius": {
+    "1": 38119,
+    "GameFAQs": "Mattel Aquarius",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Milton Bradley Microvision": {
+    "1": 17664,
+    "GameFAQs": "Microvision",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4972
+  },
+  "Mobile": {
+    "1": 44984,
+    "GameFAQs": "Mobile",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Mophun": {
+    "1": null,
+    "GameFAQs": null,
+    "MobyGames": 71,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "MSX Series PC": {
+    "1": 49210,
+    "GameFAQs": "MSX",
+    "MobyGames": 57,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4929
+  },
+  "Nec PC-88": {
+    "1": null,
+    "GameFAQs": "NEC PC88",
+    "MobyGames": 94,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4933
+  },
+  "Nec PC-98": {
+    "1": null,
+    "GameFAQs": "NEC PC98",
+    "MobyGames": 95,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4934
+  },
+  "Nec PC-FX": {
+    "1": 25727,
+    "GameFAQs": "PC-FX",
+    "MobyGames": 59,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4930
+  },
+  "Neo Geo Advanced Entertainment System": {
+    "1": 33,
+    "GameFAQs": "NeoGeo",
+    "MobyGames": 36,
+    "TheGamesDB.Old": "NeoGeo",
+    "TheGamesDB": 24
+  },
+  "Neo Geo CD": {
+    "1": 36114,
+    "GameFAQs": "Neo-Geo CD",
+    "MobyGames": 54,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4956
+  },
+  "Neo Geo Pocket": {
+    "1": 17665,
+    "GameFAQs": "NeoGeo Pocket Color",
+    "MobyGames": 52,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4922
+  },
+  "Neo Geo Pocket Color": {
+    "1": 17666,
+    "GameFAQs": "NeoGeo Pocket Color",
+    "MobyGames": 53,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4923
+  },
+  "N-Gage": {
+    "1": 42646,
+    "GameFAQs": "N-Gage",
+    "MobyGames": 32,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4938
+  },
+  "N-Gage (Service)": {
+    "1": null,
+    "GameFAQs": null,
+    "MobyGames": 89,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Nintendo 3DS": {
+    "1": 73068,
+    "GameFAQs": "3DS",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4912
+  },
+  "Nintendo 64": {
+    "1": 22,
+    "GameFAQs": "Nintendo 64",
+    "MobyGames": 9,
+    "TheGamesDB.Old": "Nintendo 64",
+    "TheGamesDB": 3
+  },
+  "Nintendo 64DD": {
+    "1": 36136,
+    "GameFAQs": "Nintendo 64DD",
+    "MobyGames": 9,
+    "TheGamesDB.Old": "Nintendo 64",
+    "TheGamesDB": 3
+  },
+  "Nintendo DS": {
+    "1": 45571,
+    "GameFAQs": "DS",
+    "MobyGames": 44,
+    "TheGamesDB.Old": "Nintendo DS",
+    "TheGamesDB": 8
+  },
+  "Nintendo Dsi": {
+    "1": 67128,
+    "GameFAQs": "DS",
+    "MobyGames": 87,
+    "TheGamesDB.Old": "Nintendo DS",
+    "TheGamesDB": 8
+  },
+  "Nintendo Entertainment System": {
+    "1": 19,
+    "GameFAQs": "NES",
+    "MobyGames": 22,
+    "TheGamesDB.Old": "Nintendo Entertainment System (NES)",
+    "TheGamesDB": 7
+  },
+  "Nintendo GameCube": {
+    "1": 17667,
+    "GameFAQs": "GameCube",
+    "MobyGames": 14,
+    "TheGamesDB.Old": "Nintendo GameCube",
+    "TheGamesDB": 2
+  },
+  "Nintendo Switch": {
+    "1": null,
+    "GameFAQs": "Nintendo Switch",
+    "MobyGames": 203,
+    "TheGamesDB.Old": "Nintendo Switch",
+    "TheGamesDB": 4971
+  },
+  "Nintendo Wii U": {
+    "1": null,
+    "GameFAQs": "Wii U",
+    "MobyGames": null,
+    "TheGamesDB.Old": "Nintendo Wii U",
+    "TheGamesDB": 38
+  },
+  "Nuon": {
+    "1": 17668,
+    "GameFAQs": "Nuon",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4935
+  },
+  "Odyssey 2": {
+    "1": 17,
+    "GameFAQs": "Odyssey^2",
+    "MobyGames": 78,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Odyssey": {
+    "1": 25728,
+    "GameFAQs": "Odyssey",
+    "MobyGames": 75,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Online/Browser": {
+    "1": null,
+    "GameFAQs": "Online/Browser",
+    "MobyGames": 84,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Oric 1/Atmos": {
+    "1": null,
+    "GameFAQs": "Oric 1/Atmos",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "OS/2": {
+    "1": null,
+    "GameFAQs": "OS/2",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Palm OS": {
+    "1": null,
+    "GameFAQs": "Palm OS Classic",
+    "MobyGames": 65,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Palm webOS": {
+    "1": null,
+    "GameFAQs": "Palm webOS",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "PC-Booter": {
+    "1": null,
+    "GameFAQs": "PC",
+    "MobyGames": 4,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Philips CD-i": {
+    "1": 34,
+    "GameFAQs": "CD-I",
+    "MobyGames": 73,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4917
+  },
+  "Pinball": {
+    "1": null,
+    "GameFAQs": "Pinball",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Pioneer LaserActive": {
+    "1": 17669,
+    "GameFAQs": "LaserActive",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4975
+  },
+  "Playdia": {
+    "1": null,
+    "GameFAQs": "Playdia",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Playstation 2": {
+    "1": 47,
+    "GameFAQs": "PlayStation 2",
+    "MobyGames": 7,
+    "TheGamesDB.Old": "Sony Playstation 2",
+    "TheGamesDB": 11
+  },
+  "Playstation": {
+    "1": 27,
+    "GameFAQs": "PlayStation",
+    "MobyGames": 6,
+    "TheGamesDB.Old": "Sony Playstation",
+    "TheGamesDB": 10
+  },
+  "Playstation 3": {
+    "1": 45561,
+    "GameFAQs": "PlayStation 3",
+    "MobyGames": 81,
+    "TheGamesDB.Old": "Sony Playstation 3",
+    "TheGamesDB": 12
+  },
+  "Playstation 4": {
+    "1": null,
+    "GameFAQs": "PlayStation 4",
+    "MobyGames": 141,
+    "TheGamesDB.Old": "Sony Playstation 4",
+    "TheGamesDB": 4919
+  },
+  "Playstation Portable": {
+    "1": null,
+    "GameFAQs": "PSP",
+    "MobyGames": 46,
+    "TheGamesDB.Old": "Sony PSP",
+    "TheGamesDB": 13
+  },
+  "Playstation Vita": {
+    "1": null,
+    "GameFAQs": "PlayStation Vita",
+    "MobyGames": 105,
+    "TheGamesDB.Old": "Sony Playstation Vita",
+    "TheGamesDB": 39
+  },
+  "Plug and Play": {
+    "1": 31822,
+    "GameFAQs": null,
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Pokemon Mini": {
+    "1": 41008,
+    "GameFAQs": null,
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "RCA Studio II": {
+    "1": 17670,
+    "GameFAQs": "RCA Studio II",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Redemption": {
+    "1": null,
+    "GameFAQs": "Redemption",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Sega CD": {
+    "1": 36,
+    "GameFAQs": "Sega CD",
+    "MobyGames": 20,
+    "TheGamesDB.Old": "Sega CD",
+    "TheGamesDB": null
+  },
+  "Sega Game Gear": {
+    "1": 25,
+    "GameFAQs": "GameGear",
+    "MobyGames": 25,
+    "TheGamesDB.Old": "Sega Game Gear",
+    "TheGamesDB": 20
+  },
+  "Sega Genesis": {
+    "1": 24,
+    "GameFAQs": "Genesis",
+    "MobyGames": 16,
+    "TheGamesDB.Old": "Sega Genesis",
+    "TheGamesDB": 18
+  },
+  "Sega Genesis 32": {
+    "1": 35,
+    "GameFAQs": "Sega 32X",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 33
+  },
+  "Sega Genesis 32X CD": {
+    "1": 43,
+    "GameFAQs": "Sega CD",
+    "MobyGames": 21,
+    "TheGamesDB.Old": "Sega 32X",
+    "TheGamesDB": 21
+  },
+  "Sega Genesis CDX": {
+    "1": 17675,
+    "GameFAQs": "Sega CD",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Sega Genesis Nomad": {
+    "1": 17671,
+    "GameFAQs": "Genesis",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Sega Master System": {
+    "1": 23,
+    "GameFAQs": "Sega Master System",
+    "MobyGames": 26,
+    "TheGamesDB.Old": "Sega Master System",
+    "TheGamesDB": 35
+  },
+  "Sega Pico": {
+    "1": 40,
+    "GameFAQs": null,
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4958
+  },
+  "Sega Saturn": {
+    "1": 26,
+    "GameFAQs": "Saturn",
+    "MobyGames": 23,
+    "TheGamesDB.Old": "Sega Saturn",
+    "TheGamesDB": 17
+  },
+  "SG-1000": {
+    "1": null,
+    "GameFAQs": "SG-1000",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4949
+  },
+  "Sharp X1": {
+    "1": null,
+    "GameFAQs": "Sharp X1",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Sharp X68000": {
+    "1": null,
+    "GameFAQs": "Sharp X68000",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4931
+  },
+  "Sinclair ZX Spectrum": {
+    "1": 17672,
+    "GameFAQs": "Sinclair ZX81/Spectrum",
+    "MobyGames": 41,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4913
+  },
+  "Sony Playstation Vita": {
+    "1": null,
+    "GameFAQs": "PlayStation Vita",
+    "MobyGames": 105,
+    "TheGamesDB.Old": "Sony Playstation Vita",
+    "TheGamesDB": null
+  },
+  "Spectravideo": {
+    "1": null,
+    "GameFAQs": null,
+    "MobyGames": 85,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Super Cassette Vision": {
+    "1": null,
+    "GameFAQs": "Super Cassette Vision",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "SuperGrafx": {
+    "1": 25723,
+    "GameFAQs": "TurboGrafx-16",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Super Nintendo Entertainment System": {
+    "1": 21,
+    "GameFAQs": "Super Nintendo",
+    "MobyGames": 15,
+    "TheGamesDB.Old": "Super Nintendo (SNES)",
+    "TheGamesDB": 6
+  },
+  "Supervision": {
+    "1": 38798,
+    "GameFAQs": "SuperVision",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Sword M5": {
+    "1": null,
+    "GameFAQs": "Sord M5",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Symbian": {
+    "1": null,
+    "GameFAQs": null,
+    "MobyGames": 67,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Tandy Color Computer": {
+    "1": null,
+    "GameFAQs": "Tandy Color Computer",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Texas Instruments TI-99/A4": {
+    "1": 39,
+    "GameFAQs": "TI-99/4A",
+    "MobyGames": 47,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4953
+  },
+  "Timex Sinclair": {
+    "1": 31,
+    "GameFAQs": null,
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "TRS-80": {
+    "1": 38,
+    "GameFAQs": null,
+    "MobyGames": 58,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4941
+  },
+  "TRS-80 CoCo": {
+    "1": null,
+    "GameFAQs": null,
+    "MobyGames": 62,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "TurboDuo": {
+    "1": 25726,
+    "GameFAQs": "Turbo CD",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "TurboGrafx-16": {
+    "1": 30,
+    "GameFAQs": "TurboGrafx-16",
+    "MobyGames": 40,
+    "TheGamesDB.Old": "TurboGrafx 16",
+    "TheGamesDB": 34
+  },
+  "TurboGrafx-16 TurboExpress": {
+    "1": 17673,
+    "GameFAQs": "TurboGrafx-16",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "TurboGrafx CD": {
+    "1": 25724,
+    "GameFAQs": "Turbo CD",
+    "MobyGames": 45,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4955
+  },
+  "Vectrex": {
+    "1": 44,
+    "GameFAQs": "Vectrex",
+    "MobyGames": 37,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4939
+  },
+  "Virtual Boy": {
+    "1": 37,
+    "GameFAQs": "Virtual Boy",
+    "MobyGames": 38,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4918
+  },
+  "V.Smile": {
+    "1": null,
+    "GameFAQs": null,
+    "MobyGames": 42,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "WebTV Plus": {
+    "1": 29096,
+    "GameFAQs": null,
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Wii": {
+    "1": 49611,
+    "GameFAQs": "Wii",
+    "MobyGames": 82,
+    "TheGamesDB.Old": "Nintendo Wii",
+    "TheGamesDB": 9
+  },
+  "Windows Mobile": {
+    "1": null,
+    "GameFAQs": "Windows Mobile",
+    "MobyGames": 66,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Windows Phone 7": {
+    "1": 73830,
+    "GameFAQs": "Windows Mobile",
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "WonderSwan": {
+    "1": 24032,
+    "GameFAQs": "WonderSwan",
+    "MobyGames": 48,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4925
+  },
+  "WonderSwan Color": {
+    "1": 31912,
+    "GameFAQs": "WonderSwan Color",
+    "MobyGames": 49,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4926
+  },
+  "XaviXPORT": {
+    "1": 46162,
+    "GameFAQs": null,
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Xbox": {
+    "1": 26052,
+    "GameFAQs": "Xbox",
+    "MobyGames": 13,
+    "TheGamesDB.Old": "Microsoft Xbox",
+    "TheGamesDB": 14
+  },
+  "Xbox 360": {
+    "1": 47504,
+    "GameFAQs": "Xbox 360",
+    "MobyGames": 69,
+    "TheGamesDB.Old": "Microsoft Xbox 360",
+    "TheGamesDB": 15
+  },
+  "Xbox One": {
+    "1": null,
+    "GameFAQs": "Xbox One",
+    "MobyGames": 142,
+    "TheGamesDB.Old": "Microsoft Xbox One",
+    "TheGamesDB": 4920
+  },
+  "Zeebo": {
+    "1": null,
+    "GameFAQs": "Zeebo",
+    "MobyGames": 88,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Zodiac": {
+    "1": 44999,
+    "GameFAQs": "Zodiac",
+    "MobyGames": 68,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": null
+  },
+  "Sega Mega Drive": {
+    "1": null,
+    "GameFAQs": null,
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 36
+  },
+  "Ouya": {
+    "1": null,
+    "GameFAQs": null,
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4921
+  },
+  "Magnavox-Odyssey-2": {
+    "1": null,
+    "GameFAQs": null,
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4927
+  },
+  "Megaduck": {
+    "1": null,
+    "GameFAQs": null,
+    "MobyGames": null,
+    "TheGamesDB.Old": null,
+    "TheGamesDB": 4948
+  }
+}

@@ -1,78 +1,74 @@
 ﻿# -*- coding: UTF-8 -*-
 
 import os
-import re
-import urllib
+import requests
 from xbmcaddon import Addon
+import json
+import xbmc
 
-# Get Game page
-def _get_game_page_url(system,search):
-    platform = _system_conversion(system)
-    params = urllib.urlencode({"name": search, "platform": platform})
-    results = []
-    try:
-        urllib.URLopener.version = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 SE 2.X MetaSr 1.0'
-        f = urllib.urlopen("http://thegamesdb.net/api/GetGamesList.php", params)
-        page = f.read().replace("\n", "")
-        if (platform == "Sega Genesis" ) :
-            params = urllib.urlencode({"name": search, "platform": "Sega Mega Drive"})
-            urllib.URLopener.version = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 SE 2.X MetaSr 1.0'
-            f2 = urllib.urlopen("http://thegamesdb.net/api/GetGamesList.php", params)
-            page = page + f2.read().replace("\n", "")
-        games = re.findall("<Game><id>(.*?)</id><GameTitle>(.*?)</GameTitle>(.*?)<Platform>(.*?)</Platform></Game>", page)
-        for item in games:
-            game = {}
-            game["id"] = item[0]
-            game["title"] = item[1]
-            game["order"] = 1
-            if ( game["title"].lower() == search.lower() ):
-                game["order"] += 1
-            if ( game["title"].lower().find(search.lower()) != -1 ):
-                game["order"] += 1
-            results.append(game)
-        results.sort(key=lambda result: result["order"], reverse=True)
-        if results:
-           return 'http://thegamesdb.net/api/GetGame.php?id='+results[0]["id"]
-    except:
-        return ""
+base_url = "https://api.thegamesdb.net"
+__settings__ = Addon(id="plugin.program.advanced.launcher")
+
 
 # Thumbnails list scrapper
-def _get_thumbnails_list(system,search,region,imgsize):
-    covers = []
-    game_id_url = _get_game_page_url(system,search)
+def _get_thumbnails_list(system, search, region, imgsize):
+    path = "/Games/ByGameName"
+    params = {
+        "apikey": __settings__.getSetting("thegamesdb_api_key"),
+        "name": search,
+        "include": "boxart"
+    }
+
+    url = base_url + path
+    r = requests.get(url, params=params)
+    data = r.json()
+
+    prefixes = data['include']['boxart']['base_url']
     try:
-        urllib.URLopener.version = 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36 SE 2.X MetaSr 1.0'
-        f = urllib.urlopen(game_id_url)
-        page = f.read().replace('\n', '')
-        boxarts = re.findall('<boxart side="front" (.*?)">(.*?)</boxart>', page)
-        for indexa, boxart in enumerate(boxarts):
-            covers.append(("http://thegamesdb.net/banners/"+boxarts[indexa][1],"http://thegamesdb.net/banners/_cache/"+boxarts[indexa][1],"Cover "+str(indexa+1)))
-        banners = re.findall('<banner (.*?)">(.*?)</banner>', page)
-        for indexb, banner in enumerate(banners):
-            covers.append(("http://thegamesdb.net/banners/"+banners[indexb][1],"http://thegamesdb.net/banners/_cache/"+banners[indexb][1],"Banner "+str(indexb+1)))
-        return covers
+        image_base_url = prefixes[imgsize]
     except:
-        return covers
-        
+        image_base_url = prefixes['large']
+
+    image_thumb_url = prefixes['thumb']
+
+    results = []
+    for item in data['data']['games']:
+        game = {}
+        game["id"] = item['id']
+        game["title"] = str(item['game_title'].encode('utf-8'))
+        game["order"] = 1
+        if game["title"].lower() == search.lower():
+            game["order"] += 1
+        if game["title"].lower().find(search.lower()) != -1:
+            game["order"] += 1
+        results.append(game)
+    results.sort(key=lambda result: result["order"], reverse=True)
+
+    games_id = results[0]['id']
+
+    xbmc.log("Selected title: " + results[0]['title'], level=xbmc.LOGNOTICE)
+    xbmc.log("Selected id: " + str(games_id), level=xbmc.LOGNOTICE)
+
+    boxarts = []
+    for i, item in enumerate(data['include']['boxart']['data'][str(games_id)]):
+        boxarts.append((image_base_url + item['filename'], image_thumb_url + item['filename'], "Boxart " + str(i + 1)))
+    return boxarts
+
+
 # Get Thumbnail scrapper
 def _get_thumbnail(image_url):
     return image_url
 
-# Game systems DB identification
+
 def _system_conversion(system_id):
     try:
-        rootDir = Addon( id="plugin.program.advanced.launcher" ).getAddonInfo('path')
-        if rootDir[-1] == ';':rootDir = rootDir[0:-1]
-        resDir = os.path.join(rootDir, 'resources')
-        scrapDir = os.path.join(resDir, 'scrapers')
-        csvfile = open( os.path.join(scrapDir, 'gamesys'), "rb")
-        conversion = []
-        for line in csvfile.readlines():
-            result = line.replace('\n', '').replace('"', '').split(',')
-            if result[0].lower() == system_id.lower():
-                if result[4]:
-                    platform = result[4]
-                    return platform
+        rootDir = Addon(id="plugin.program.advanced.launcher").getAddonInfo('path')
+        if rootDir[-1] == ';': rootDir = rootDir[0:-1]
+        with open(os.path.join(rootDir, 'resources', 'scrapers', 'game-systems.json')) as jsonfile:
+            data = json.loads(jsonfile.read())
+        keys_orig = data.keys()
+        keys = [s.lower() for s in keys_orig]
+        if system_id.lower() in keys:
+            return data[keys_orig[keys.index(system_id.lower())]]['TheGamesDB']
     except:
         return ''
-
