@@ -1,3 +1,6 @@
+[B]2.6.2[/B]
+. Merge changes from Spiral Cut
+
 [B]2.6.1[/B]
 . Add new logo.
 
@@ -152,7 +155,7 @@
 
 [B]2.0.2[/B]
 . Add alternative application option for each items.
-. Add alternative argument option for each items. 
+. Add alternative argument option for each items.
 
 [B]2.0.1[/B]
 . Fix caterory creation bug.
@@ -171,7 +174,7 @@
 [B]1.13.0[/B]
 . Add launcher and item trailer selection.
 . Rename custom path as extra-fanarts path.
-. Assign extra-fanarts path to listitem.director. 
+. Assign extra-fanarts path to listitem.director.
 . Fix display refresh after scan.
 . Clean existing thumbs/fanarts images testing code.
 . Start to add debug log support (WIP).
@@ -241,8 +244,8 @@
 . Fix thumb change random bug.
 
 [B]1.10.8[/B]
-. Set Toggle XBMC in windowed mode default option to OFF. 
-. Rename Toggle XBMC fullscreen option Toggle XBMC in windowed mode. 
+. Set Toggle XBMC in windowed mode default option to OFF.
+. Rename Toggle XBMC fullscreen option Toggle XBMC in windowed mode.
 
 [B]1.10.7[/B]
 . Add %romtitle% variable.
@@ -275,13 +278,13 @@
 
 [B]1.10.0[/B]
 . Add Frodo support (executehttpapi -> executeJSONRPC).
- 
+
 [B]1.9.1[/B]
 . Add "Manage sources" entry into launcher context menu.
 . Add "Manage sources" entry into launcher creation menu.
 
 [B]1.9.0[/B]
-. Automatically set launcher fanart as default item fanart 
+. Automatically set launcher fanart as default item fanart
 . Code cleaning (tabs/spaces indentations)
 
 [B]1.8.10[/B]
@@ -446,7 +449,7 @@
 [B]1.6.0[/B]
 . Add launchers & items nfo file manual import/save options
 . Fix launchers and items description modification option
-. Modification of launchers & items datas/infos menu 
+. Modification of launchers & items datas/infos menu
 
 [B]1.5.8[/B]
 . Fix multi-disc selection bug for .cd# filenames.
@@ -673,7 +676,7 @@
 
 [B]0.9.12[/B]
 . update french translation
-. add title formating for title starting by "The", "A" and "An" 
+. add title formating for title starting by "The", "A" and "An"
 . add thumbs and fanarts default paths settings for launchers
 
 [B]0.9.11[/B]
@@ -684,7 +687,7 @@
 
 [B]0.9.10[/B]
 . fix edit rom dialog error (filename)
-. fix import text file function (double quotes) 
+. fix import text file function (double quotes)
 . update german translation (thanks to mandark)
 . update polish translation (thanks to Robert de Clair)
 
@@ -729,7 +732,7 @@
 . add spanish translation (thanks to KiSUAN)
 . fix title cleaning before scrap
 . fix bug for romname including '"' character
-. fix "AG-1000" as "SG-1000" into gamesys 
+. fix "AG-1000" as "SG-1000" into gamesys
 
 [B]0.9.1[/B]
 . fix Windows command line error.
@@ -754,7 +757,7 @@
 
 [B]0.8.7[/B]
 . fix google size string display translation
-. fix freeze after deleting all the launchers 
+. fix freeze after deleting all the launchers
 . fix title cleaning for manual scraping
 . update polish translation (thanks to Robert de Clair)
 
@@ -768,7 +771,7 @@
 [B]0.8.5[/B]
 . settings menu reorganization
 . context menus reorganization
-. strings.xml file cleaning (remove dead entries) 
+. strings.xml file cleaning (remove dead entries)
 . fix of empty romname error
 
 [B]0.8.4[/B]
@@ -821,7 +824,7 @@
 
 [B]0.7.4[/B]
 . add automatic MAME rom filename/game title conversion
-. add manual thumb and fanart scrap option for launcher 
+. add manual thumb and fanart scrap option for launcher
 . modify "add new launcher" option (thumbpath and fanartpath selection)
 . modify "edit launcher" option (remove extension edition for stand-alone launcher)
 
