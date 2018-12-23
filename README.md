@@ -1,14 +1,22 @@
-# Advanced Launcher 2.5.9 (Unofficial Release)
-This is an updated fork of Angelscry's Advanced Launcher Kodi plugin.  The only focus of these updates is to fix any issues caused by updates to Kodi or changes to the scraped websites APIs/designs.
+
+# Advanced Launcher 2.6.2
+This is an updated fork of Angelscry's Advanced Launcher Kodi plugin, this includes SpiralCut's changes, but non of those actually appeared to be working. TheGamesDB is working as of 23/12/2018 ymmv, get your own API key from them.
+ - klattimer
+
+<h3>Updates since 2.5.9</h3>
+<ul>
+	<li>Fixed a bug in files with spaces</li>
+	<li>Updated the thegamesdb.net to use their new API, it's not perfect but it kinda works</li>
+</ul>
 
 <h3>Updates since 2.5.8</h3>
 <ul>
-	<li>Fix GameFAQs, MobyGames, TheGamesDB, arcadeHITS, and Google scrapers.</li>
+    <li>Fix GameFAQs, MobyGames, TheGamesDB, arcadeHITS, and Google scrapers.</li>
 	<li>Update Google scraper to use new Google image sizes.</li>
 	<li>Remove AllGame (RIP), HTBackdrops (RIP), and ComicVine (bad API, quick bans) scrapers.</li>
 	<li>Add message when GameFAQs has blocked your account for excessive searches.</li>
  	<li>Updated script compatibility for Krypton+.</li>
-</ul>
+ </ul>
 
 <h3>Installation Instructions</h3>
 <ul>

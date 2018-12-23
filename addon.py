@@ -10,9 +10,9 @@ import os
 # plugin constants
 __plugin__ = "Advanced Launcher"
 __author__ = "Angelscry"
-__url__ = "https://github.com/Angelscry/plugin.program.advanced.launcher"
-__git_url__ = "https://github.com/Angelscry/plugin.program.advanced.launcher"
-__credits__ = "Leo212 CinPoU, JustSomeUser, Zerqent, Zosky, Atsumori"
+__url__ = "https://github.com/klattimer/advanced-launcher"
+__git_url__ = "https://github.com/klattimer/advanced-launcher"
+__credits__ = "Leo212 CinPoU, JustSomeUser, Zerqent, Zosky, Atsumori, klattimer"
 __version__ = "2.6.2"
 
 if ( __name__ == "__main__" ):
