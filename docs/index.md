@@ -6,10 +6,26 @@ Latest version: 2.6.2
 
 In order to continue to provide this functionality which has been much missed since AngelsCry's repo was taken down, I have taken it upon myself to rebuild and re-develop advanced launcher, so that it is both more functional and more stable than it has been.
 
+### Untested/Unknown state scrapers
+- Google
+- ComicVine
+
+### Working scrapers
+
+- TheGamesDB.net
+
+### Non-working scrapers
+
+- arcadeHITS
+- GameFAQs
+- MobyGames
+
 Basic Installation
 --
 I haven't made a zip release yet, nor have I sorted out repository distribution. Ideally I'd
-like to get it into the kodi main repo.
+like to get it into the kodi main repo. At the minute git pull the repo as such
+
+    $ git pull <repo> ~/.kodi/addons/plugin.program.advanced.launcher
 
 Configuration
 --
@@ -31,15 +47,15 @@ In order to obtain your gamesdb api key you need to:
 Supported emulators
 --
 
-Tested means that it's been working or is working, supported means that we have a solid set of command line options that are automatically applied to the emulator to run the game. Supported offers seamless integration, for starting and exiting a game, so that may take a while to get filled out... 
+Tested means that it's been working or is working, supported means that we have a solid set of command line options that are automatically applied to the emulator to run the game. Supported offers seamless integration, for starting and exiting a game, so that may take a while to get filled out...
 
 |Emulator   | Tested | Supported | Website                       |
 |-----------|:------:|:---------:|-------------------------------|
-|zsnes      | Yes    | -         |
-|bsnes      | No     | -         |
-|mednafen   | Yes    | -         |
-|mupen64    | Yes    | -         |
-|dolphin    | Yes    | -         |
-|pcsx2      | Yes    | -         |
-|epsxe      | Yes    | -         |
-|more...    |        | -         |
+|zsnes      | Yes    | -         |                               |
+|bsnes      | No     | -         |                               |
+|mednafen   | Yes    | -         |                               |
+|mupen64    | Yes    | -         |                               |
+|dolphin    | Yes    | -         |                               |
+|pcsx2      | Yes    | -         |                               |
+|epsxe      | Yes    | -         |                               |
+|more...    |        | -         |                               |
